@@ -59,6 +59,7 @@ li:hover .sub-menu {
 
 input[name=search] {
     width: 70px;
+    float: right;
 }
 
 
