@@ -1,13 +1,15 @@
 
 /* Navigation CSS */
 
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: #791d7e;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -15,14 +17,13 @@ nav ul {
 li {
     display: inline-block;
     position: relative;
-    padding: 8px;
+    padding: 10px 15px 10px 15px;
 }
 
 li a {
     text-decoration: none;
     width: auto;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 2px;
     color: #FFFFFF;
     display: block;
     text-align: center;
@@ -41,10 +42,13 @@ ul li:hover {
     top: 100%;
     padding: 0;
     text-align: left;
+    width: 100%;
 }
 
 .sub-menu li {
     display: block;
+    position: relative;
+    padding: 8px;
 }
 
 .sub-menu li a {
@@ -59,8 +63,19 @@ li:hover .sub-menu {
 
 input[name=search] {
     width: 70px;
-    float: right;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
+
+input[name=search]:focus {
+    position: relative;
+    width: 200px;
+}
+
+/* END */
+
+/* Responsive Nav CSS - @media */
+
 
 
 /* END */
