@@ -8,19 +8,22 @@ body {
 }
 
 .courses {
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .accordion {
     background-color: #791d7e;
     color: white;
-    padding: 10px;
+    padding: 12px;
     width: 100%;
     text-align: left;
+    margin: 2px 2px 0 2px;
     border: none;
     outline: none;
-    -webkit-transition: 0.4s ease;
+    -webkit-transition: 0.5s ease-in;
+    font-size: 12px;
 }
 
 .accordion.active,
@@ -29,22 +32,26 @@ body {
 }
 
 .panel {
-    padding: 0px;
     background-color: white;
     display: block;
-    max-height: 0px;
-    -webkit-transition: 0.5s ease-in-out;
+    height: 0;
+    -webkit-transition: 0.5s ease-out;
     overflow: hidden;
+    margin-left: 2px;
+    margin-right: -1px;
+    padding: 0;
 }
 
 .panel.show {
-    max-height: 300px;
+    height: 200px !important;
     position: relative;
+    top: 100%;
     left: 0;
+
 }
 
 .accordion:after {
-    content: "\0295";
+    content: "\25bc";
     font-size: 11px;
     color: #FFFFFF;
     float: right;
@@ -52,12 +59,13 @@ body {
 }
 
 .accordion.active:after {
-    content: "\2796";
+    content: "\25b2";
 }
 
 .content {
     display: block;
-    padding: 8px;
+    padding-left: 8px;
+    font-size: 12px;
 }
 
 /* END */
