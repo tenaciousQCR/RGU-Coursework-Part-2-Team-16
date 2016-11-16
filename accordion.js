@@ -24,3 +24,9 @@ function setClass(els,className,fnName) {
         els[i].classList[fnName](className);
     }
 }
+
+
+
+function openVideo() {
+    document.getElementById("test-video").style.width = "400px";
+}

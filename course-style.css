@@ -8,7 +8,7 @@ body {
 }
 
 .courses {
-    width: 70%;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,7 +34,7 @@ body {
 .panel {
     background-color: white;
     display: block;
-    height: 0;
+    max-height: 0;
     -webkit-transition: 0.5s ease-out;
     overflow: hidden;
     margin-left: 2px;
@@ -43,7 +43,7 @@ body {
 }
 
 .panel.show {
-    height: 200px !important;
+    max-height: 500px !important;
     position: relative;
     top: 100%;
     left: 0;
@@ -64,10 +64,59 @@ body {
 
 .content {
     display: block;
-    padding-left: 8px;
+    width: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 12px;
+}
+
+.quick-view {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0;
+}
+
+.overview {
+    width: 45%;
+    text-align: justify;
+    float: left;
+    padding: 2.5%;
 }
 
 /* END */
 
+/* Video CSS */
+
+
+.container {
+    width: 45%;
+    float: right;
+    padding: 2.5%;
+    position: relative;
+}
+
+.clickable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* END */
+
+.entry {
+    width: 100%;
+    float: left;
+    padding: 2.5%;
+}
+
+.course-video.highlight {
+    position: fixed;
+    height: 300px;
+    width: 400px;
+}
 
