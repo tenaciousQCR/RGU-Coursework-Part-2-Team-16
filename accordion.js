@@ -26,7 +26,3 @@ function setClass(els,className,fnName) {
 }
 
 
-
-function openVideo() {
-    document.getElementById("test-video").style.width = "400px";
-}

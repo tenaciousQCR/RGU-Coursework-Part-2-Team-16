@@ -62,6 +62,10 @@ body {
     content: "\25b2";
 }
 
+.accordion:hover {
+    cursor: pointer;
+}
+
 .content {
     display: block;
     width: auto;
@@ -72,51 +76,114 @@ body {
 }
 
 .quick-view {
+    border: 2px solid #791d7e;
+    overflow: auto;
+}
+
+.quick-view p {
     width: 33.33%;
-    float: left;
     text-align: center;
     padding: 0;
+    float: left;
 }
 
 .overview {
-    width: 45%;
     text-align: justify;
+    overflow: auto;
+}
+
+.info {
     float: left;
+    width: 45%;
     padding: 2.5%;
 }
+
+.video-link {
+    width: 45%;
+    float: left;
+    padding: 2.5%;
+
+}
+
+.requirements {
+    padding: 2px;
+    border: 2px solid #791d7e;
+    overflow: auto;
+}
+
+.requirements p {
+    width: 40%;
+    padding: 0 5%;
+    text-align: justify;
+    float: left;
+}
+
+
 
 /* END */
 
-/* Video CSS */
 
 
-.container {
-    width: 45%;
-    float: right;
-    padding: 2.5%;
-    position: relative;
-}
 
-.clickable {
-    position: absolute;
+/* Modal Box - Course Videos */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#myBtn:hover {
     cursor: pointer;
 }
 
+.modal-content {
+    margin: auto;
+    width: 80%;
+    max-width: 700px;
+    display: block;
+}
+
+iframe {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    right: -35px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
 
 /* END */
 
-.entry {
-    width: 100%;
-    float: left;
-    padding: 2.5%;
-}
-
-.course-video.highlight {
-    position: fixed;
-    height: 300px;
-    width: 400px;
-}
 

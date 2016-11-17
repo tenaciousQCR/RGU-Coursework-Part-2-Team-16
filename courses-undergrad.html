@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>RGU CSDM</title>
     <link rel="stylesheet" type="text/css" href="course-style.css">
-
 </head>
 <body>
 <section class="courses">
@@ -14,23 +13,41 @@
     </button>
     <section class="panel">
         <section class="content">
-            <p class="quick-view">Award: BSc (Hons)</p>
-            <p class="quick-view">Course Length: 2 years</p>
-            <p class="quick-view">Mode of Study: Full-time</p>
+            <section class="quick-view">
+                <p>Award: BSc (Hons)</p>
+                <p>Course Length: 2 years</p>
+                <p>Mode of Study: Full-time</p>
+            </section>
+
             <section class="overview">
-                <p>This course aims to equip students to work as professional engineers and consultants in the design, configuration and management of computer networks.</p>
-                <p>The course format has been designed to meet the requirements of applicants who already possess an appropriate HND, by providing a two-year top-up programme leading to an honours degree.</p>
+                <p class="info">This course aims to equip students to work as professional engineers and consultants in the design, configuration and management of computer networks.<br/><br/>The course format has been designed to meet the requirements of applicants who already possess an appropriate HND, by providing a two-year top-up programme leading to an honours degree.</p>
+
+
+
+                <img id="myBtn" class="video-link" src="images/network-video.jpg" alt="Link to network course video">
+
+
             </section>
-            <section class="container">
-                <div class="clickable" onclick="openVideo()"></div>
-                <iframe id="test-video" class="course-video" onclick="openVideo()" width="205" height="145" src="https://www.youtube.com/embed/WHWUv8Rfss8" frameborder="0" allowfullscreen></iframe>
+
+
+
+            <section class="requirements">
+                <p><strong>Entry Requirements</strong><br/>A relevant HND from one of our partner colleges.</p>
+                <p><strong>Advanced Entry</strong><br/>Applications for advanced entry are considered on an individual basis.</p>
             </section>
-            <section class="entry">
-                <p>Entry Requirements</p>
-            </section>
+
+
+
         </section>
     </section>
+    <div id="myModal" class="modal">
 
+        <div class="modal-content" id="modal-content">
+            <span class="close">x</span>
+            <iframe id="test-video" class="course-video" width="615" height="435" src="https://www.youtube.com/embed/WHWUv8Rfss8" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </div>
     <button class="accordion">
         BSc Computer Science
     </button>
@@ -70,5 +87,6 @@
 
 </section>
 <script type="text/javascript" src="accordion.js"></script>
+<script type="text/javascript" src="modal-video.js"></script>
 </body>
 </html>
