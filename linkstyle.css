@@ -1,35 +1,69 @@
+h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    width: 60%;
+    box-sizing: content-box;
+    text-align: right;
+    margin: 0;
+    padding: 0.835em 1em 0.835em 0;
+    background-color: rgba(80, 13, 104, 0.8);
+    transition: all 400ms;
+    font-size: 1em;
+    font-weight: 600;
+}
+
 #courses {
-    background-image: url(Images\courses.PNG);
-    height:1025px;
-    width:770px;
+    background-image: url("Images/courses.PNG");
+    height:147px;
+    width:400px;
+    position: relative;
 }
 
 #news {
-    background-image: url(Images\courses.PNG);
-    height:1025px;
-    width:770px;
+    background-image: url("Images/courses.PNG");
+    height:147px;
+    width:400px;
+    position: relative;
 }
 
 #research {
-    background-image: url(Images\courses.PNG);
-    height:1025px;
-    width:770px;
+    background-image: url("Images/courses.PNG");
+    height:147px;
+    width:400px;
+    position: relative;
 }
 
 #industry {
-    background-image: url(Images\courses.PNG);
-    height:1025px;
-    width:770px;
+    background-image: url("Images/courses.PNG");
+    height:147px;
+    width:400px;
+    position: relative;
 }
 
 #staffstudents {
-    background-image: url(Images\courses.PNG);
-    height:1025px;
-    width:770px;
+    background-image: url("Images/courses.PNG");
+    height:147px;
+    width:400px;
+    position: relative;
 }
 
 #about {
-    background-image: url(Images\courses.PNG);
-    height:1025px;
-    width:770px;
+    background-image: url("Images/courses.PNG");
+    height:147px;
+    width:400px;
+    position: relative;
 }
+
+#courses p {
+    vertical-align: bottom;
+    position: relative;
+    bottom: 0;
+}
+
+.images{
+    float: right;
+    top: 110px;
+}
+
