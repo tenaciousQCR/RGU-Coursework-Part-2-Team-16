@@ -8,51 +8,58 @@ h2 {
     text-align: right;
     margin: 0;
     padding: 0.835em 1em 0.835em 0;
-    background-color: rgba(80, 13, 104, 0.8);
+    background-color: rgba(80, 13, 104, 1);
     transition: all 400ms;
     font-size: 1em;
     font-weight: 600;
 }
 
+.images:hover>h2{
+    width:70%;
+    background-color: rgba(80, 13, 104, 0.7);
+}
+
+
+
 #courses {
-    background-image: url("Images/courses.PNG");
+    background-image: url("Images/courseimage400x146.png");
     height:147px;
     width:400px;
     position: relative;
 }
 
 #news {
-    background-image: url("Images/courses.PNG");
-    height:147px;
-    width:400px;
+    background-image: url("Images/news180x119.png");
+    height:112px;
+    width:180px;
     position: relative;
 }
 
 #research {
-    background-image: url("Images/courses.PNG");
-    height:147px;
-    width:400px;
+    background-image: url("Images/research180x114.png");
+    height:112px;
+    width:180px;
     position: relative;
 }
 
 #industry {
-    background-image: url("Images/courses.PNG");
-    height:147px;
-    width:400px;
+    background-image: url("Images/industry400x191.png");
+    height:400px;
+    width:180px;
     position: relative;
 }
 
 #staffstudents {
-    background-image: url("Images/courses.PNG");
+    background-image: url("Images/staffandstudents400x153.png");
     height:147px;
     width:400px;
     position: relative;
 }
 
 #about {
-    background-image: url("Images/courses.PNG");
-    height:147px;
-    width:400px;
+    background-image: url("Images/aboutus180x112.png");
+    height:112px;
+    width:180px;
     position: relative;
 }
 
@@ -62,8 +69,5 @@ h2 {
     bottom: 0;
 }
 
-.images{
-    float: right;
-    top: 110px;
-}
+
 
