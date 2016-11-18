@@ -2,10 +2,8 @@
  * Created by danne on 17/11/2016.
  */
 
-var modal = document.getElementById('myModal');
-
-var btn = document.getElementById('myBtn');
-
+var modal = document.getElementById('modal-network');
+var btn = document.getElementById('img-network');
 var span = document.getElementsByClassName('close')[0];
 
 btn.onclick = function() {
@@ -27,14 +25,5 @@ window.onclick = function(event) {
     }
 };
 
-/*
-function toggleVideo(state) {
-    var div = document.getElementById("modal-content");
-    var iframe = modal.getElementsByTagName("iframe")[0].contentWindow;
-    div.style.display = state == 'hide' ? 'none' : '';
-    func = state == 'hide' ? 'pauseVideo' : 'playVideo';
-    iframe.postMessage('{"event":"command","func":"' + func + '",args":""}','*');
-}
-*/
 
 

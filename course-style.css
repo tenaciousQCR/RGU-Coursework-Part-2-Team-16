@@ -88,21 +88,24 @@ body {
 }
 
 .overview {
-    text-align: justify;
     overflow: auto;
 }
 
+
 .info {
-    float: left;
     width: 45%;
+    margin: 0;
     padding: 2.5%;
+    display: inline-block;
+    float: left;
 }
 
 .video-link {
     width: 45%;
-    float: left;
+    margin: 0;
     padding: 2.5%;
-
+    display: inline-block;
+    float: left;
 }
 
 .requirements {
@@ -153,7 +156,7 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 
-#myBtn:hover {
+.video-link:hover {
     cursor: pointer;
 }
 
