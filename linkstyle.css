@@ -96,12 +96,18 @@ main{
     max-width:600px;
     margin-right: auto;
     margin-left: auto;
+    overflow: auto;
 }
 
 #news-res{
     overflow:auto;
 }
 
-.grid-container{
-
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+
+
