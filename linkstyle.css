@@ -14,6 +14,13 @@ h2 {
     font-weight: 600;
 }
 
+main{
+    background-color: beige;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .images:hover>h2{
     width:96%;
     background-color: rgba(80, 13, 104, 0.7);
@@ -30,24 +37,24 @@ h2 {
     height:147px;
     width:400px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 #news {
     background-image: url("Images/news180x119.png");
     height:112px;
-    width:180px;
+    width:190px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     float:left;
 }
 
 #research {
     background-image: url("Images/research180x114.png");
     height:112px;
-    width:180px;
+    width:190px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     float:right;
 }
 
@@ -58,7 +65,7 @@ h2 {
     height:147px;
     width:400px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 #industry {
@@ -66,7 +73,7 @@ h2 {
     height:303px;
     width:180px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 #about {
@@ -74,7 +81,7 @@ h2 {
     height:112px;
     width:180px;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 #two{
@@ -87,9 +94,14 @@ h2 {
 
 #image-links{
     max-width:600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #news-res{
     overflow:auto;
 }
 
+.grid-container{
+
+}
