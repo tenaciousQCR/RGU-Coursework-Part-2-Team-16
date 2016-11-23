@@ -19,6 +19,11 @@ h2 {
     background-color: rgba(80, 13, 104, 0.7);
 }
 
+.images2:hover>h2{
+    width:91%;
+    background-color: rgba(80, 13, 104, 0.7);
+}
+
 
 #courses {
     background-image: url("Images/courseimage400x146.png");
@@ -58,7 +63,7 @@ h2 {
 
 #industry {
     background-image: url("Images/industry400x191.png");
-    height:400px;
+    height:303px;
     width:180px;
     position: relative;
     margin-bottom: 8px;
@@ -73,7 +78,7 @@ h2 {
 }
 
 #two{
-    float: right;
+    float:right;
 }
 
 #four{
