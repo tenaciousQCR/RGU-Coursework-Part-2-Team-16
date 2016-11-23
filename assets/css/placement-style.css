@@ -1,4 +1,13 @@
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
 #placement-title {
     background-color: rgba(80, 13, 104, 1);
     color: white;
+    margin-right: 650px;
 }
