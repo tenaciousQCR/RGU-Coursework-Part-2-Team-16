@@ -3,9 +3,11 @@
     width: 60%;
     background-color: #791D7E;
     position: relative;
+    padding-left: 0px;
 }
 
 #icon{
     width: 27px;
     height: 27px;
+    margin-top: 20px;
 }
