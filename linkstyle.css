@@ -14,11 +14,44 @@ h2 {
     font-weight: 600;
 }
 
+h3{
+    color: white;
+    box-sizing: content-box;
+    padding: 0.7em 0.8em 0.7em 0.8em;
+    background-color: rgba(80, 13, 104, 1);
+    text-align: right;
+    max-width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
 main{
-    background-color: beige;
-    max-width: 960px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#image-links{
+    max-width:600px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.google-map{
+    margin-top: 20px;
+    float: right;
+    max-width:360px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact{
+    float: left;
+    max-width: 250px;
 }
 
 .images:hover>h2{
@@ -90,21 +123,10 @@ main{
     float:left;
 }
 
-#image-links{
-    max-width:600px;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: auto;
-}
+
 
 #news-res{
     overflow:auto;
-}
-
-.grid-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 
