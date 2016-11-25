@@ -1,4 +1,4 @@
-h2 {
+.linktitle {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -14,7 +14,7 @@ h2 {
     font-weight: 600;
 }
 
-h3{
+#contacttitle {
     color: white;
     box-sizing: content-box;
     padding: 0.7em 0.8em 0.7em 0.8em;
@@ -24,8 +24,6 @@ h3{
     margin-right: auto;
     margin-left: auto;
 }
-
-
 
 main{
     max-width: 600px;
@@ -93,7 +91,7 @@ main{
 
 #staffstudents {
     background-image: url("Images/staffandstudents400x153.png");
-    height:147px;
+    height:144px;
     width:400px;
     position: relative;
     margin-bottom: 12px;
@@ -122,8 +120,6 @@ main{
 #four{
     float:left;
 }
-
-
 
 #news-res{
     overflow:auto;
