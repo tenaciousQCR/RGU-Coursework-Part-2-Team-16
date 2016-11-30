@@ -8,9 +8,20 @@
 </head>
 <body>
 <header>
-    <nav>
+    <section class="banner">
+        <!--<img id="rgu-img" src="rgu-banner.jpg" width="1200" height="444">-->
+
+        <img id="school-title" src="schooltitle-white.png" width="1098" height="69">
+        <img id="logo" src="rgulogo-white.png" width="500" height="98">
+
+    </section>
+
+    <nav id="nav">
+        <div id="home">
+            <a href="index.html" id="home-link"><img src="home-icon.png" alt="home link" height="20" width="20"></a>
+        </div>
         <ul class="menu">
-            <li>
+            <li class="menu-content">
                 <a href="#">About Us</a>
                 <ul class="sub-menu">
                     <li><a href="#">Staff</a></li>
@@ -18,7 +29,7 @@
                     <li><a href="#">Health &amp; Safety</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="menu-content">
                 <a href="#">Our Courses</a>
                 <ul class="sub-menu">
                     <li><a href="#">Undergraduate</a></li>
@@ -29,8 +40,10 @@
                     <li><a href="#">Distance Learning</a></li>
                 </ul>
             </li>
-            <li><a href="#">Research</a></li>
-            <li>
+            <li class="menu-content">
+                <a href="#">Research</a>
+            </li>
+            <li class="menu-content">
                 <a href="#">Student &amp; Staff Resources</a>
                 <ul class="sub-menu">
                     <li><a href="#">Campus Moodle</a></li>
@@ -41,20 +54,35 @@
                     <li><a href="#">Staff Resources</a></li>
                 </ul>
             </li>
-            <li><a href="#">Talent Exchange</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact Us</a></li>
-
-
-            <li>
-                <input type="text" name="search" placeholder="Search...">
+            <li class="menu-content">
+                <a href="#">Talent Exchange</a>
             </li>
+            <li class="menu-content">
+                <a href="#">News</a>
+            </li>
+            <li class="menu-content">
+                <a href="#">Contact Us</a>
+            </li>
+<!--
+            <li>
+                <img src="searchicon.png" id="searchicon">
+            </li>
+-->
+
+
+
+
 
         </ul>
-    </nav>
+        <div id="search-box">
+            <input type="text" name="search" placeholder="Search..." onfocus="hideNav()" onblur="showNav()">
+            <button id="search-btn">Go</button>
+        </div>
+        </nav>
 </header>
 <section>
 
 </section>
+<script type="text/javascript" src="hide-nav.js"></script>
 </body>
 </html>

@@ -17,7 +17,8 @@
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    position: static;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -36,3 +37,5 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+
