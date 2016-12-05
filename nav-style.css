@@ -11,10 +11,11 @@ header {
 }
 
 .banner {
-    width: 1200px;
+    width: 90%;
     height: 444px;
     background-image: url("rgu-banner.png");
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -38,7 +39,7 @@ nav {
 }
 
 .menu {
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
