@@ -31,6 +31,14 @@ main{
     margin-right: auto;
 }
 
+#abouttitle{
+    text-decoration: underline;
+}
+
+#abouttext{
+    text-align: justify;
+}
+
 #image-links{
     max-width:600px;
     margin-right: auto;
@@ -71,8 +79,10 @@ main{
     margin-bottom: 12px;
 }
 
+
+
 #news {
-    background-image: url("Images/news180x119.png");
+    background-image: url("Images/news190x126.png");
     height:112px;
     width:190px;
     position: relative;
@@ -81,7 +91,7 @@ main{
 }
 
 #research {
-    background-image: url("Images/research180x114.png");
+    background-image: url("Images/research190x120.png");
     height:112px;
     width:190px;
     position: relative;
@@ -100,15 +110,15 @@ main{
 #industry {
     background-image: url("Images/industry400x191.png");
     height:303px;
-    width:180px;
+    width:190px;
     position: relative;
     margin-bottom: 12px;
 }
 
 #about {
-    background-image: url("Images/aboutus180x112.png");
+    background-image: url("Images/aboutus190x133.png");
     height:112px;
-    width:180px;
+    width:190px;
     position: relative;
     margin-bottom: 12px;
 }
@@ -119,11 +129,35 @@ main{
 
 #four{
     float:left;
+    max-width: 400px;
 }
 
 #news-res{
     overflow:auto;
 }
 
+@media screen and (max-width: 650px){
+
+    #industry {
+        float:left;
+        height:112px;
+        background-position: 0px -70px;
+    }
+
+    #about {
+        float:right;
+    }
+
+
+    #two{
+        float:left;
+        width: 400px;
+    }
+
+    #four{
+        width:400px;
+        float:none
+    }
+}
 
 
