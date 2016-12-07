@@ -46,6 +46,12 @@ main{
     overflow: auto;
 }
 
+
+#contact{
+    float: left;
+    max-width: 250px;
+}
+
 .google-map{
     margin-top: 20px;
     float: right;
@@ -53,11 +59,6 @@ main{
     display: flex;
     justify-content: center;
     align-content: center;
-}
-
-#contact{
-    float: left;
-    max-width: 250px;
 }
 
 .images:hover>h2{
@@ -138,6 +139,20 @@ main{
 
 @media screen and (max-width: 650px){
 
+    #four{
+        width:400px;
+        float:none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #two{
+        float: none;
+        width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     #industry {
         float:left;
         height:112px;
@@ -148,15 +163,17 @@ main{
         float:right;
     }
 
-
-    #two{
-        float:left;
-        width: 400px;
+    #contact{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    #four{
-        width:400px;
-        float:none
+    .google-map{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 }
 
