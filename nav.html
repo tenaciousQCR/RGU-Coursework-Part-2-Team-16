@@ -11,8 +11,8 @@
     <section class="banner">
         <!--<img id="rgu-img" src="rgu-banner.jpg" width="1200" height="444">-->
 
-        <img id="school-title" src="schooltitle-white.png" width="1098" height="69">
-        <img id="logo" src="rgulogo-white.png" width="500" height="98">
+        <img id="school-title" src="schooltitle-white.png">
+        <img id="logo" src="rgulogo-white.png">
 
     </section>
 
@@ -20,17 +20,18 @@
         <div id="home">
             <a href="index.html" id="home-link"><img src="home-icon.png" alt="home link" height="20" width="20"></a>
         </div>
-        <ul class="menu">
-            <li class="menu-content">
-                <a href="#">About Us</a>
+        <ul class="menu" id="navigation">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <li>
+                <a href="#" class="menu-content">About Us</a>
                 <ul class="sub-menu">
                     <li><a href="#">Staff</a></li>
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Health &amp; Safety</a></li>
                 </ul>
             </li>
-            <li class="menu-content">
-                <a href="#">Our Courses</a>
+            <li>
+                <a href="#" class="menu-content">Our Courses</a>
                 <ul class="sub-menu">
                     <li><a href="#">Undergraduate</a></li>
                     <li><a href="#">Postgraduate</a></li>
@@ -40,11 +41,11 @@
                     <li><a href="#">Distance Learning</a></li>
                 </ul>
             </li>
-            <li class="menu-content">
-                <a href="#">Research</a>
+            <li>
+                <a href="#" class="menu-content">Research</a>
             </li>
-            <li class="menu-content">
-                <a href="#">Student &amp; Staff Resources</a>
+            <li>
+                <a href="#" class="menu-content">Student &amp; Staff Resources</a>
                 <ul class="sub-menu">
                     <li><a href="#">Campus Moodle</a></li>
                     <li><a href="#">RGyoU</a></li>
@@ -54,14 +55,14 @@
                     <li><a href="#">Staff Resources</a></li>
                 </ul>
             </li>
-            <li class="menu-content">
-                <a href="#">Talent Exchange</a>
+            <li>
+                <a href="#" class="menu-content">Talent Exchange</a>
             </li>
-            <li class="menu-content">
-                <a href="#">News</a>
+            <li>
+                <a href="#" class="menu-content">News</a>
             </li>
-            <li class="menu-content">
-                <a href="#">Contact Us</a>
+            <li >
+                <a href="#" class="menu-content">Contact Us</a>
             </li>
 <!--
             <li>
@@ -69,20 +70,17 @@
             </li>
 -->
 
-
-
-
-
         </ul>
         <div id="search-box">
             <input type="text" name="search" placeholder="Search..." onfocus="hideNav()" onblur="showNav()">
             <button id="search-btn">Go</button>
         </div>
         </nav>
+    <span id="open-nav" onclick="openNav()">&#9776;</span>
 </header>
 <section>
 
 </section>
-<script type="text/javascript" src="hide-nav.js"></script>
+<script type="text/javascript" src="nav.js"></script>
 </body>
 </html>
