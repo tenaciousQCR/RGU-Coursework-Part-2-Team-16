@@ -198,7 +198,7 @@
         cursor: pointer;
     }
 
-    .open-nav {
+    #open-nav {
         display: none;
     }
 
@@ -211,23 +211,23 @@
     body {
         background-color: gold;
         width: 100%;
+        overflow: hidden;
     }
 
     .banner {
         width: 100%;
-        height: 444px;
+        height: 344px;
         background-image: url("rgu-banner.png");
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 50% 0;
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-start;
-        margin-left: auto;
-        margin-right: auto;
-        position: absolute;
-        left: 0;
-        top: 0;
-        overflow: auto;
+        margin: -8px;
+        position: relative;
+        padding-bottom: 10px;
+
+        /*overflow: auto;*/
     }
 
     #school-title {
@@ -240,18 +240,13 @@
         height: auto;
     }
 
-    .open-nav {
-        display: block;
-        width: 20px;
-        height: 20px;
-    }
+
 
     /* Nav */
-    #navigation {
+    .menu {
         background-color: rebeccapurple;
-
         height: 100%;
-        width: 0px;
+        width: 250px;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -259,6 +254,15 @@
         padding-top: 60px;
         overflow-x: hidden;
         /*-webkit-transition: 0.5s ease-in-out;*/
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 40px;
+        position: relative;
     }
 
     .menu,
@@ -283,12 +287,14 @@
         font-size: 20px;
         /*        -webkit-transition: 0.3s;*/
         color: white;
+        position: relative;
+        border-bottom: 1px solid white;
     }
 
     .menu-content.active,
     .menu a:hover {
-        background-color: lavender;
-        color: grey;
+        background-color: #a02686;
+        color: white;
     }
 
     .sub-menu {
@@ -303,6 +309,10 @@
         -webkit-transition: 0.5s ease-in-out;
     }
 
+    .sub-menu a {
+        border: none;
+    }
+
     .sub-menu.show {
         max-height: 300px;
         position: relative;
@@ -311,11 +321,16 @@
     }
 
     .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
+        position: relative;
+        left: 200px;
+        font-size: 40px;
+        padding: 5px 5px 5px 5px;
+        display: block;
+    }
+
+    .closebtn:hover {
+        cursor: pointer;
+        color: #FFFFFF;
     }
 
     main {
@@ -323,8 +338,111 @@
         padding: 20px;
     }
 
-    .open-nav {
+
+    .icon {
+        background-color: #791d7e;
+        width: 100%;
+        margin-left: -8px;
+        margin-right: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding-right: 10px;
+    }
+
+
+    #home {
+        position: relative;
+        display: inline-block;
+    }
+
+    #home-icon {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    #search-box {
+        background-color: #791d7e;
+        position: relative;
+        z-index: 5;
+        display: inline-block;
+        width: 250px;
+        align-items: center;
+        justify-content: center;
+        float: right;
+    }
+
+    input[name=search] {
+        display: inline-block;
+        width: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 16px;
+        background-color: #791d7e;
+        background-image: url("searchicon.png");
+        background-position: 5px 6px;
+        background-repeat: no-repeat;
+        margin: 4px;
+        padding: 7px 6px 7px 25px;
+        -webkit-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 5px;
+        z-index: -1;
+    }
+
+    input[name=search]:hover {
+        background-color: white;
+    }
+
+    #search-btn {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 5px;
+        background-color: white;
+        border: none;
+        padding: 6px 5px;
+        margin-top: 5px;
+        margin-right: 6px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s;
+        float: right;
+        z-index: 5;
+        width: 60px;
+    }
+
+    #search-btn:hover {
+        background-color: darkgrey;
+    }
+
+
+    input[name=search]:focus {
+        position: relative;
+        width: 230px;
+        background-color: white;
+    }
+
+    input[name=search]:focus + #search-btn {
+        display: block;
+    }
+
+    #open-nav {
+        width: 50px;
+        height: 40px;
         cursor: pointer;
+        color: white;
+        font-size: 24px;
+
     }
 
 }
