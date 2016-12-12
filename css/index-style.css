@@ -1,0 +1,30 @@
+main {
+    width: 90%;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 0;
+}
+
+#image-content {
+    max-width: 600px;
+    background-color: crimson;
+    position: relative;
+    width: 70%;
+    padding: 0;
+    margin: 5px;
+    float: left;
+}
+
+#sidebar {
+    background-color: midnightblue;
+    position: relative;
+    width: 20%;
+    height: 200px;
+    max-height: 100px;
+}
+
+footer {
+
+}

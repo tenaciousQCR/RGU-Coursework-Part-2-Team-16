@@ -1,0 +1,143 @@
+/* Style the list */
+.rightTabs {
+    float: right;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: rgba(80,13,104,0.8);
+}
+
+/* Float the list items side by side */
+ul.tab li {
+    float: left;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: rgba(70, 25, 104, 1);
+}
+
+/* Create an active/current tablink class */
+#sidebar ul.tab li a:focus, .active {
+    background-color: rgba(80,13,104,1);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.fix, .col-full {
+    zoom: 1;
+}
+
+#tabs .inside li span.meta, .widget_woodojo_tabs .tabbable .tab-pane li span.meta {
+    font: 300 11px/1.5em "Helvetica Neue", Helvetica, sans-serif;
+    color: #999999;
+}
+
+#tabs .inside li span.meta {
+    display: block;
+    font: 300 11px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #777;
+}
+
+#tabs .inside li a, .widget_woodojo_tabs .tabbable .tab-pane li a {
+    font: bold 12px/1.5em "Helvetica Neue", Helvetica, sans-serif;
+    color: #555555;
+}
+
+#tabs .inside li a {
+    color: #999;
+    font: bold 13px/18px Helvetica, Arial, sans-serif;
+    padding: 0;
+}
+
+.widget ul li a {
+    padding: 0;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+/*a:link, a:visited {*/
+    /*color: #006a72;*/
+/*}*/
+
+/*a:link, a:visited {*/
+    /*color: #1982D1;*/
+    /*text-decoration: none;*/
+/*}*/
+
+#tabs .inside li img.thumbnail {
+    float: left;
+    margin: 0 8px 0 0;
+    padding: 4px;
+    border-radius: 300px;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+}
+
+.entry img, img.thumbnail {
+    background: none;
+    border: medium none;
+    padding: 5px;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.entry img, img.thumbnail, #portfolio .group.portfolio-img img {
+    height: auto;
+    padding: 3px;
+    border: 1px solid #e6e6e6;
+    background: #F8F8F8;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#tab-latest li{
+    padding: 15px;
+    margin-left: -35px;
+}
+
+#tab-pop li{
+    padding: 15px;
+    margin-left: -35px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#twitter-rule{
+    background-color: rgba(80,13,104,0.8);
+    width: 300px;
+    height: 50px;
+    color: white;
+}
+
+#twitter-widget{
+    width: 20%;
+    border: #ddd 1px solid;
+}

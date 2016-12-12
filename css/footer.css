@@ -1,0 +1,30 @@
+.footerRule{
+    height: 80px;
+    width: 90%;
+    background-color: #791D7E;
+    position: relative;
+    padding-left: 0px;
+}
+
+#icon{
+    width: 27px;
+    height: 27px;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+
+#footerText{
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    padding-top: 5px;
+}
+
+#sm-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}

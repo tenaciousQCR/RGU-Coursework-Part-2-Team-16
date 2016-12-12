@@ -36,6 +36,8 @@
         flex-direction: row;
         justify-content: center;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .menu {
@@ -56,14 +58,14 @@
     }
 
 
-    li {
+    nav li {
         display: inline-block;
         position: relative;
         padding: 10px 15px 10px 15px;
         text-align: center;
     }
 
-    li a {
+    nav li a {
         text-decoration: none;
         max-width: 200px;
         padding: 2px;
@@ -72,13 +74,11 @@
     }
 
 
-    ul li:hover {
+    nav ul li:hover {
         background-color: #a02686;
     }
 
-    .menu-content.hide {
-        color: green;
-    }
+
 
     .sub-menu {
         position: absolute;
@@ -100,7 +100,7 @@
         text-align: left;
     }
 
-    li:hover .sub-menu {
+    nav li:hover .sub-menu {
         display: block;
     }
 
@@ -127,7 +127,7 @@
         border-style: none;
         font-size: 12px;
         background-color: white;
-        background-image: url("../searchicon.png");
+        background-image: url("../images/searchicon.png");
         background-position: 4px 4px;
         background-repeat: no-repeat;
         margin: 5px;
@@ -390,7 +390,7 @@
         border-style: none;
         font-size: 16px;
         background-color: #791d7e;
-        background-image: url("../searchicon.png");
+        background-image: url("../images/searchicon.png");
         background-position: 5px 6px;
         background-repeat: no-repeat;
         margin: 4px;
