@@ -121,12 +121,12 @@
 
     input[name=search] {
         display: inline-block;
-        width: 20px;
+        width: 200px;
         box-sizing: border-box;
         border-radius: 5px;
         border-style: none;
         font-size: 12px;
-        background-color: #791d7e;
+        background-color: white;
         background-image: url("searchicon.png");
         background-position: 4px 4px;
         background-repeat: no-repeat;
@@ -140,13 +140,14 @@
         right: 5px;
         z-index: -1;
     }
-
+/*
     input[name=search]:hover {
         background-color: white;
     }
+*/
 
     #search-btn {
-        display: none;
+        display: block;
         position: absolute;
         top: 0;
         right: 5px;
@@ -166,17 +167,18 @@
         background-color: darkgrey;
     }
 
-
+/*
     input[name=search]:focus {
         position: relative;
         width: 200px;
         background-color: white;
     }
-
+    */
+/*
     input[name=search]:focus + #search-btn {
         display: block;
     }
-
+*/
 
     /* END */
 
@@ -209,7 +211,6 @@
 
     /* Header */
     body {
-        background-color: gold;
         width: 100%;
         overflow: hidden;
     }
@@ -246,7 +247,7 @@
     .menu {
         background-color: rebeccapurple;
         height: 100%;
-        width: 250px;
+        width: 0px;
         position: fixed;
         z-index: 1;
         top: 0;
