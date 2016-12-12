@@ -4,16 +4,19 @@ main {
     margin-left: auto;
 }
 
-
-
 #placement-title {
     background-color: rgba(80, 13, 104, 1);
     color: white;
     margin-right: 550px;
 }
 
-#graph{
+#graph {
     float: left;
+    padding-top: 4%;
+}
+
+#info {
+    margin-top: 100px;
 }
 
 div {
@@ -21,3 +24,48 @@ div {
     margin-right: auto;
 }
 
+
+#video {
+    margin-left: 200px;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+    float: left;
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+    margin-left: 508px;
+    float: right;
+}
+
+.w3-btn-floating {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.w3-btn-floating, .w3-btn-floating-large {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: rgba(80, 13, 104, 1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+}
