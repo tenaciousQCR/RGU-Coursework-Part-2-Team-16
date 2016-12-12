@@ -1,0 +1,186 @@
+.linktitle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    width: 60%;
+    box-sizing: content-box;
+    text-align: right;
+    margin: 0;
+    padding: 0.835em 1em 0.835em 0;
+    background-color: rgba(80, 13, 104, 1);
+    transition: all 400ms;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#contacttitle {
+    color: white;
+    box-sizing: content-box;
+    padding: 0.7em 0.8em 0.7em 0.8em;
+    background-color: rgba(80, 13, 104, 1);
+    text-align: right;
+    max-width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abouttitle{
+    text-decoration: underline;
+}
+
+#abouttext{
+    text-align: justify;
+}
+
+#image-links{
+    max-width:600px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+
+#contact{
+    float: left;
+    max-width: 250px;
+}
+
+.google-map{
+    margin-top: 20px;
+    float: right;
+    max-width:360px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.images:hover>h2{
+    width:96%;
+    background-color: rgba(80, 13, 104, 0.7);
+}
+
+.images2:hover>h2{
+    width:91%;
+    background-color: rgba(80, 13, 104, 0.7);
+}
+
+
+#courses {
+    background-image: url("Images/courseimage400x146.png");
+    height:147px;
+    width:400px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+
+
+#news {
+    background-image: url("Images/news190x126.png");
+    height:112px;
+    width:190px;
+    position: relative;
+    margin-bottom: 12px;
+    float:left;
+}
+
+#research {
+    background-image: url("Images/research190x120.png");
+    height:112px;
+    width:190px;
+    position: relative;
+    margin-bottom: 12px;
+    float:right;
+}
+
+#staffstudents {
+    background-image: url("Images/staffandstudents400x153.png");
+    height:144px;
+    width:400px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+#industry {
+    background-image: url("Images/industry400x191.png");
+    height:303px;
+    width:190px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+#about {
+    background-image: url("Images/aboutus190x133.png");
+    height:112px;
+    width:190px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+#two{
+    float:right;
+}
+
+#four{
+    float:left;
+    max-width: 400px;
+}
+
+#news-res{
+    overflow:auto;
+}
+
+@media screen and (max-width: 650px){
+
+    #aboutschool{
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #four{
+        width:400px;
+        float:none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #two{
+        float: none;
+        width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #industry {
+        float:left;
+        height:112px;
+        background-position: 0px -70px;
+    }
+
+    #about {
+        float:right;
+    }
+
+    #contact{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .google-map{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+}
+
+
