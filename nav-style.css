@@ -204,6 +204,10 @@
         display: none;
     }
 
+    .closebtn {
+        display: none;
+    }
+
     /* END */
 }
 
@@ -327,6 +331,7 @@
         font-size: 40px;
         padding: 5px 5px 5px 5px;
         display: block;
+        color: white;
     }
 
     .closebtn:hover {
