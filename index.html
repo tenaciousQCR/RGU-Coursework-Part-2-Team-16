@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Image Links</title>
+    <title>CSDM RGU</title>
 
     <link rel="stylesheet" type="text/css" href="css/index-style.css">
     <link rel="stylesheet" type="text/css" href="css/nav-style.css">
     <link rel="stylesheet" type="text/css" href="css/linkstyle.css">
     <link rel="stylesheet" type="text/css" href="css/News&TwitterFeed.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css">
 
-    <script src="js/News&TwitterFeed.js"></script>
-    <!--<script>document.getElementById("defaultOpen").click();</script>-->
+
+
+    <meta  name="viewport"  content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
 </head>
 <body>
 
-<header>
-    <section class="banner">
+<header class="grid-container">
+    <section class="banner grid-100 mobile-grid-100">
         <!--<img id="rgu-img" src="rgu-banner.jpg" width="1200" height="444">-->
 
         <img id="school-title" src="images/schooltitle-white.png" width="1098" height="69">
@@ -24,7 +26,7 @@
 
     </section>
 
-    <nav id="nav">
+    <nav class="grid-100 grid-parent" id="nav">
         <div id="home" class="icon">
             <a href="index.html" id="home-link"><img id="home-icon" src="images/home-icon.png" alt="home link" height="20" width="20"></a>
         </div>
@@ -87,14 +89,14 @@
     </nav>
 </header>
 
-<main>
-    <section id="image-content">
+<main class="grid-container">
+    <section class="grid-70 mobile-grid-100" id="image-content">
         <section id = "image-links">
             <section id="aboutschool">
                 <h3>
                     About the School
                 </h3>
-                <p id="abouttext">The School of Computing Science and Digital Media - Robert Gordon University in Aberdeen, Scotland has an excellent reputation for it's innovative and practical approaches to teaching and learning. This site contains news, events, staff and student links, research, contact information and much more.</p>
+                <p id="abouttext">The School of Computing Science and Digital Media - Robert Gordon University in Aberdeen, Scotland has an excellent reputation for it's innovative and practical approaches to teaching and learning. This site contains news and events happening around and about the School, as well as providing information </p>
             </section>
 
             <section id="four">
@@ -184,7 +186,7 @@
         </section>
 
     </section>
-    <section id="sidebar">
+    <section class="grid-20 mobile-grid-100" id="sidebar">
         <section class="rightTabs">
             <ul class="tab">
                 <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Latest')" id="defaultOpen">Latest</a></li>
@@ -202,27 +204,32 @@
 
                             <ul id="tab-latest" class="list" style="display: block;">
                                 <li>
-                                    <a href="http://www.comp.rgu.ac.uk/2016/10/rgu-computing-students-compete-in-cyber-security-challenge/" title="RGU computing students compete in Cyber Security Challenge"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/10/CtrQiLuWcAARBCZ-45x45.jpg" alt="" width="45" height="45" class="woo-image thumbnail"></a>		<a title="RGU computing students compete in Cyber Security Challenge" href="http://www.comp.rgu.ac.uk/2016/10/rgu-computing-students-compete-in-cyber-security-challenge/">RGU computing students compete in Cyber Security Challenge</a>
+                                    <a href="http://www.comp.rgu.ac.uk/2016/10/rgu-computing-students-compete-in-cyber-security-challenge/" title="RGU computing students compete in Cyber Security Challenge"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/10/CtrQiLuWcAARBCZ-45x45.jpg" alt="" width="45" height="45" class="woo-image thumbnail"></a>
+                                    <a title="RGU computing students compete in Cyber Security Challenge" href="http://www.comp.rgu.ac.uk/2016/10/rgu-computing-students-compete-in-cyber-security-challenge/">RGU computing students compete in Cyber Security Challenge</a>
                                     <span class="meta">October 19, 2016</span>
                                     <div class="fix"></div>
                                 </li>
                                 <li>
-                                    <a href="http://www.comp.rgu.ac.uk/2016/10/incubator-news-converge-challenge-2016-winners-announced/" title="Incubator News – Converge Challenge 2016 Winners Announced"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/09/L-R-Brandon-Torrie-Lord-Lieutenant-Carol-Kinghorn-Yoan-Montoya-and-Piotr-Starzek1-45x45.jpg" alt="RGU students design new website for Lord-Lieutenant" width="45" height="45" class="woo-image thumbnail"></a>		<a title="Incubator News – Converge Challenge 2016 Winners Announced" href="http://www.comp.rgu.ac.uk/2016/10/incubator-news-converge-challenge-2016-winners-announced/">Incubator News – Converge Challenge 2016 Winners Announced</a>
+                                    <a href="http://www.comp.rgu.ac.uk/2016/10/incubator-news-converge-challenge-2016-winners-announced/" title="Incubator News – Converge Challenge 2016 Winners Announced"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/09/L-R-Brandon-Torrie-Lord-Lieutenant-Carol-Kinghorn-Yoan-Montoya-and-Piotr-Starzek1-45x45.jpg" alt="RGU students design new website for Lord-Lieutenant" width="45" height="45" class="woo-image thumbnail"></a>
+                                    <a title="Incubator News – Converge Challenge 2016 Winners Announced" href="http://www.comp.rgu.ac.uk/2016/10/incubator-news-converge-challenge-2016-winners-announced/">Incubator News – Converge Challenge 2016 Winners Announced</a>
                                     <span class="meta">October 6, 2016</span>
                                     <div class="fix"></div>
                                 </li>
                                 <li>
-                                    <a href="http://www.comp.rgu.ac.uk/2016/10/talent-exchange-opportunity-tourbook-ltd/" title="Talent Exchange Opportunity – Tourbook Ltd"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2015/05/Screen-Shot-2015-05-15-at-12.21.42-45x45.png" alt="talent-exchange-logo" width="45" height="45" class="woo-image thumbnail"></a>		<a title="Talent Exchange Opportunity – Tourbook Ltd" href="http://www.comp.rgu.ac.uk/2016/10/talent-exchange-opportunity-tourbook-ltd/">Talent Exchange Opportunity – Tourbook Ltd</a>
+                                    <a href="http://www.comp.rgu.ac.uk/2016/10/talent-exchange-opportunity-tourbook-ltd/" title="Talent Exchange Opportunity – Tourbook Ltd"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2015/05/Screen-Shot-2015-05-15-at-12.21.42-45x45.png" alt="talent-exchange-logo" width="45" height="45" class="woo-image thumbnail"></a>
+                                    <a title="Talent Exchange Opportunity – Tourbook Ltd" href="http://www.comp.rgu.ac.uk/2016/10/talent-exchange-opportunity-tourbook-ltd/">Talent Exchange Opportunity – Tourbook Ltd</a>
                                     <span class="meta">October 4, 2016</span>
                                     <div class="fix"></div>
                                 </li>
                                 <li>
-                                    <a href="http://www.comp.rgu.ac.uk/2016/09/harris-caprock-equipment-donation/" title="Harris CapRock Equipment Donation"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/09/IMG_4888-crop-45x45.jpg" alt="" width="45" height="45" class="woo-image thumbnail"></a>		<a title="Harris CapRock Equipment Donation" href="http://www.comp.rgu.ac.uk/2016/09/harris-caprock-equipment-donation/">Harris CapRock Equipment Donation</a>
+                                    <a href="http://www.comp.rgu.ac.uk/2016/09/harris-caprock-equipment-donation/" title="Harris CapRock Equipment Donation"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/09/IMG_4888-crop-45x45.jpg" alt="" width="45" height="45" class="woo-image thumbnail"></a>
+                                    <a title="Harris CapRock Equipment Donation" href="http://www.comp.rgu.ac.uk/2016/09/harris-caprock-equipment-donation/">Harris CapRock Equipment Donation</a>
                                     <span class="meta">September 22, 2016</span>
                                     <div class="fix"></div>
                                 </li>
                                 <li style="border-bottom-width: 0px;">
-                                    <a href="http://www.comp.rgu.ac.uk/2016/09/eann-2016/" title="EANN 2016"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/09/Eann-e1473765100386-45x45.jpg" alt="" width="45" height="45" class="woo-image thumbnail"></a>		<a title="EANN 2016" href="http://www.comp.rgu.ac.uk/2016/09/eann-2016/">EANN 2016</a>
+                                    <a href="http://www.comp.rgu.ac.uk/2016/09/eann-2016/" title="EANN 2016"><img src="http://www.comp.rgu.ac.uk/wp-content/uploads/2016/09/Eann-e1473765100386-45x45.jpg" alt="" width="45" height="45" class="woo-image thumbnail"></a>
+                                    <a title="EANN 2016" href="http://www.comp.rgu.ac.uk/2016/09/eann-2016/">EANN 2016</a>
                                     <span class="meta">September 13, 2016</span>
                                     <div class="fix"></div>
                                 </li>
@@ -293,9 +300,9 @@
     </section>
 </main>
 
-<footer>
+<footer class="grid-container">
 
-    <center><div class="footerRule">
+    <center><div class="footerRule grid-100 mobile-grid-100">
         <p id="footerText">Connect with us</p>
         <section id="sm-icons">
             <a href="https://www.facebook.com/robertgordonuniversity"><img id="icon"; title="Follow RGU on Facebook (opens in new window)" style="border: 0px;" onmouseover="this.src='images/Facebook-Coloured.jpg';" onmouseout="this.src='images/facebook-uncoloured.png';" alt="Follow RGU on Facebook (opens in new window)" src="images/facebook-uncoloured.png"></a>
@@ -313,6 +320,7 @@
 
 <script type="text/javascript" src="js/nav.js"></script>
 <script>document.getElementById("defaultOpen").click();</script>
-
+<script src="js/News&TwitterFeed.js"></script>
+<!--<script>document.getElementById("defaultOpen").click();</script>-->
 </body>
 </html>

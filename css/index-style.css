@@ -1,18 +1,87 @@
-main {
-    width: 90%;
-    /*background-color: gold;*/
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-    padding: 0;
-    height: 100%;
+* {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
 }
+
+@media screen and (min-width: 787px) {
+    main {
+        width: 90%;
+        /*background-color: gold;*/
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        padding: 0;
+        height: 100%;
+    }
+
+    #image-content {
+        width: 75%;
+    }
+
+    #sidebar {
+        width: 25%;
+        margin: 5px;
+    }
+
+    .footerRule {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    #twitter-widget {
+        max-height: 400px;
+    }
+
+    .tabcontent {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    main {
+        width: 90%;
+        /*background-color: gold;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        padding: 0;
+        height: 100%;
+    }
+
+    #image-content {
+        width: 100%;
+    }
+
+    #sidebar {
+        width: 90%;
+        /*margin: 8px;*/
+    }
+
+    .footerRule {
+        margin: -8px;
+        width: 100%;
+    }
+
+    #twitter-widget {
+        max-height: 300px;
+    }
+
+    .tabcontent {
+        height: 400px;
+    }
+}
+
 
 #image-content {
     /*max-width: 800px;*/
     /*background-color: crimson;*/
     position: relative;
-    width: 75%;
+    /*width: 75%;*/
     padding: 0;
     margin: 5px;
     float: left;
@@ -25,9 +94,9 @@ main {
 #sidebar {
     /*background-color: midnightblue;*/
     position: relative;
-    width: 25%;
+    /*width: 25%;*/
     padding: 0;
-    margin: 5px;
+    /*margin: 5px;*/
 }
 
 footer {

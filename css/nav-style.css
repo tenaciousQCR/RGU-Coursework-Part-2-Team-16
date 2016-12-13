@@ -7,11 +7,11 @@
     /* Banner */
 
     header {
-        width: 100%;
+        /*width: 100%;*/
     }
 
     .banner {
-        width: 90%;
+        /*width: 90%;*/
         height: 444px;
         background-image: url("../images/rgu-banner.png");
         background-repeat: no-repeat;
@@ -35,13 +35,14 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
+        /*width: 100%;*/
         margin-left: auto;
         margin-right: auto;
+        background-color: #791D7E;
     }
 
     .menu {
-        width: 70%;
+        /*width: 70%;*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -75,7 +76,7 @@
 
 
     nav ul li:hover {
-        background-color: #a02686;
+        background-color: #500d68;
     }
 
 
@@ -196,7 +197,7 @@
     }
 
     #home:hover {
-        background-color: #a02686;
+        background-color: #500d68;
         cursor: pointer;
     }
 
@@ -216,7 +217,7 @@
     /* Header */
     body {
         width: 100%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .banner {
@@ -249,9 +250,9 @@
 
     /* Nav */
     .menu {
-        background-color: rebeccapurple;
+        background-color: #500d68;
         height: 100%;
-        width: 0px;
+        width: 0;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -265,9 +266,11 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
+        /*width: 100%;*/
         height: 40px;
         position: relative;
+        background-color: #791D7E;
+        margin-right: 8px;
     }
 
     .menu,
@@ -298,7 +301,7 @@
 
     .menu-content.active,
     .menu a:hover {
-        background-color: #a02686;
+        background-color: #500d68;
         color: white;
     }
 
@@ -322,7 +325,7 @@
         max-height: 300px;
         position: relative;
         left: 0;
-        background-color: darkgray;
+        background-color: #791D7E;
     }
 
     .closebtn {

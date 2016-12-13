@@ -8,7 +8,7 @@
     text-align: right;
     margin: 0;
     padding: 0.835em 1em 0.835em 0;
-    background-color: rgba(80, 13, 104, 1);
+    background-color: #791D7E;
     transition: all 400ms;
     font-size: 1em;
     font-weight: 600;
@@ -18,11 +18,25 @@
     color: white;
     box-sizing: content-box;
     padding: 0.7em 0.8em 0.7em 0.8em;
-    background-color: rgba(80, 13, 104, 1);
+    background-color: #791D7E;
     text-align: right;
     max-width: 90px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#aboutschool {
+    margin-bottom: 50px;
+}
+
+#aboutschool h3 {
+    color: white;
+    display: block;
+    background-color: #791D7E;
+    text-align: center;
+    padding: 10px;
+    /*box-sizing: content-box;*/
+    max-width: 140px;
 }
 
 main{
@@ -44,12 +58,14 @@ main{
     margin-right: auto;
     margin-left: auto;
     overflow: auto;
+    /*background-color: burlywood;*/
 }
 
 
 #contact{
     float: left;
     max-width: 250px;
+    padding: 10px;
 }
 
 .google-map{
@@ -59,16 +75,19 @@ main{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 10px;
 }
 
 .images:hover>h2{
     width:96%;
-    background-color: rgba(80, 13, 104, 0.7);
+    background-color: #791D7E;
+    opacity: 0.7;
 }
 
 .images2:hover>h2{
     width:91%;
-    background-color: rgba(80, 13, 104, 0.7);
+    background-color: #791D7E;
+    opacity: 0.7;
 }
 
 
@@ -139,12 +158,17 @@ main{
 
 #find-us {
     max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background-color: chartreuse;*/
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 786px){
 
     #aboutschool{
-        max-width: 400px;
+        max-width: 600px;
         margin-right: auto;
         margin-left: auto;
     }
