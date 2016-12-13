@@ -3,7 +3,7 @@
     font-family: "Times New Roman", Times, serif;
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 901px) {
     main {
         width: 90%;
         /*background-color: gold;*/
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
     main {
         width: 90%;
         /*background-color: gold;*/
