@@ -1,4 +1,4 @@
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 1025px) {
     body {
         width: 70%;
         margin: auto;
@@ -212,7 +212,7 @@
     /* END */
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
     /* Header */
     body {
