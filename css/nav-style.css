@@ -103,6 +103,7 @@
 
     nav li:hover .sub-menu {
         display: block;
+        z-index: 2;
     }
 
     /* END */
