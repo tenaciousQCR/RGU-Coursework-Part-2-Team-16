@@ -1,9 +1,9 @@
 * {
     text-align: left;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Georgia", serif;
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1025px) {
     main {
         width: 90%;
         /*background-color: gold;*/
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     main {
         width: 90%;
         /*background-color: gold;*/
