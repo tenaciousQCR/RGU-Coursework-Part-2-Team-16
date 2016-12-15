@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 1025px) {
     main {
-        width: 90%;
+        /*width: 90%;*/
         /*background-color: gold;*/
         display: flex;
         flex-direction: row;
