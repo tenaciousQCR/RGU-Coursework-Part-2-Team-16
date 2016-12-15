@@ -1,8 +1,5 @@
 /* Accordion CSS */
 
-/** {*/
-    /*font-size: 12px;*/
-/*}*/
 
 body {
     max-height: 960px;
@@ -37,10 +34,11 @@ body {
     margin: 2px 2px 0 2px;
     border: none;
     outline: none;
-    -webkit-transition: 0.5s ease-in;
+    /*-webkit-transition: 0.5s ease-in;*/
     font-size: 15px;
 }
 
+.accordion:focus,
 .accordion.active,
 .accordion:hover {
     background-color: #a02686;

@@ -3,6 +3,7 @@
     font-family: "Georgia", serif;
 }
 
+
 @media screen and (min-width: 1025px) {
     main {
         /*width: 90%;*/
@@ -105,6 +106,9 @@
     /*margin: 5px;*/
 }
 
-footer {
-
+.unfinished {
+    margin: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

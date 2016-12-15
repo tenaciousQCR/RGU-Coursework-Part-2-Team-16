@@ -1,3 +1,8 @@
+:focus {
+   background-color:  #500d68;
+}
+
+
 @media screen and (min-width: 1025px) {
     body {
         /*width: 70%;*/
@@ -22,10 +27,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    #rgu-img {
-    }
-
 
     /* END */
 
@@ -165,6 +166,7 @@
         z-index: 5;
     }
 
+
     #search-btn:hover {
         background-color: darkgrey;
     }
@@ -196,6 +198,7 @@
     #home-link {
         padding: 0 10px 0 10px;
     }
+
 
     #home:hover {
         background-color: #500d68;
