@@ -1,5 +1,5 @@
 :focus {
-   background-color:  #500d68;
+   border-bottom: solid 1px white;
 }
 
 
@@ -11,12 +11,8 @@
 
     /* Banner */
 
-    header {
-        /*width: 100%;*/
-    }
 
     .banner {
-        /*width: 90%;*/
         height: 444px;
         background-image: url("../images/rgu-banner.png");
         background-repeat: no-repeat;
@@ -43,7 +39,6 @@
     }
 
     .menu {
-        /*width: 70%;*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -143,11 +138,7 @@
         right: 5px;
         z-index: -1;
     }
-/*
-    input[name=search]:hover {
-        background-color: white;
-    }
-*/
+
 
     #search-btn {
         display: block;
@@ -171,18 +162,6 @@
         background-color: darkgrey;
     }
 
-/*
-    input[name=search]:focus {
-        position: relative;
-        width: 200px;
-        background-color: white;
-    }
-    */
-/*
-    input[name=search]:focus + #search-btn {
-        display: block;
-    }
-*/
 
     /* END */
 
@@ -297,7 +276,6 @@
         text-decoration: none;
         display: block;
         font-size: 20px;
-        /*        -webkit-transition: 0.3s;*/
         color: white;
         position: relative;
         border-bottom: 1px solid white;
@@ -339,6 +317,7 @@
         padding: 5px 5px 5px 5px;
         display: block;
         color: white;
+        border-bottom: hidden;
     }
 
     .closebtn:hover {

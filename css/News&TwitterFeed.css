@@ -3,7 +3,10 @@
     /*float: right;*/
     width: 100%;
     overflow: hidden;
-    /*max-height: 1500px;*/
+}
+
+.list {
+    display: block;
 }
 
 ul.tab {
@@ -47,31 +50,30 @@ ul.tab li a:hover {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    /*height: 550px;*/
 }
 
 .fix, .col-full {
     zoom: 1;
 }
 
-#tabs .inside li span.meta, .widget_woodojo_tabs .tabbable .tab-pane li span.meta {
+.tabs .inside li span.meta, .widget_woodojo_tabs .tabbable .tab-pane li span.meta {
     font: 300 11px/1.5em "Helvetica Neue", Helvetica, sans-serif;
     color: #999999;
 }
 
-#tabs .inside li span.meta {
+.tabs .inside li span.meta {
     display: block;
     font: 300 11px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: #777;
 }
 
-#tabs .inside li a, .widget_woodojo_tabs .tabbable .tab-pane li a {
+.tabs .inside li a, .widget_woodojo_tabs .tabbable .tab-pane li a {
     font: bold 12px/1.5em "Helvetica Neue", Helvetica, sans-serif;
     color: #555555;
 }
 
-#tabs .inside li a {
+.tabs .inside li a {
     color: #999;
     font: bold 13px/18px Helvetica, Arial, sans-serif;
     padding: 0;
@@ -84,16 +86,7 @@ ul.tab li a:hover {
     text-decoration: none;
 }
 
-/*a:link, a:visited {*/
-    /*color: #006a72;*/
-/*}*/
-
-/*a:link, a:visited {*/
-    /*color: #1982D1;*/
-    /*text-decoration: none;*/
-/*}*/
-
-#tabs .inside li img.thumbnail {
+.tabs .inside li img.thumbnail {
     float: left;
     margin: 0 8px 0 0;
     padding: 4px;
@@ -135,13 +128,7 @@ ul{
     list-style-type: none;
 }
 
-/*#twitter-rule{*/
-     /*background-color: rgba(80,13,104,0.8);*/
-     /*width: 300px;*/
-     /*height: 50px;*/
-     /*color: white;*/
-/*}*/
-
+/*Twitter Widget*/
 #twitter-widget{
     border: #ddd 1px solid;
     /*max-height: 600px;*/

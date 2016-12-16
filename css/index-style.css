@@ -1,9 +1,37 @@
+
+/*Set Website Font and Inital Text Alignment*/
 * {
     text-align: left;
     font-family: "Georgia", serif;
 }
 
+#image-content {
+    position: relative;
+    padding: 0;
+    margin: 5px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#sidebar {
+    position: relative;
+    padding: 0;
+}
+
+/*CSS for under-construction.html*/
+.unfinished {
+    margin: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*CSS for positioning main page content*/
+/*Large Screens*/
 @media screen and (min-width: 1025px) {
     main {
         /*width: 90%;*/
@@ -47,10 +75,11 @@
     }
 }
 
+/*CSS for positioning main page content*/
+/*Small Screens*/
 @media screen and (max-width: 1024px) {
     main {
         width: 90%;
-        /*background-color: gold;*/
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -84,31 +113,3 @@
 }
 
 
-#image-content {
-    /*max-width: 800px;*/
-    /*background-color: crimson;*/
-    position: relative;
-    /*width: 75%;*/
-    padding: 0;
-    margin: 5px;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#sidebar {
-    /*background-color: midnightblue;*/
-    position: relative;
-    /*width: 25%;*/
-    padding: 0;
-    /*margin: 5px;*/
-}
-
-.unfinished {
-    margin: 200px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

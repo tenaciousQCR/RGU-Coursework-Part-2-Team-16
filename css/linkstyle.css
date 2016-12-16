@@ -18,9 +18,9 @@
     color: white;
     box-sizing: content-box;
     padding: 0.7em 0.8em 0.7em 0.8em;
-    background-color: #791D7E;
-    text-align: right;
-    max-width: 90px;
+    background-color: #500d68;
+    text-align: center;
+    max-width: 110px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -32,15 +32,13 @@
 #aboutschool h3 {
     color: white;
     display: block;
-    background-color: #791D7E;
+    background-color: #500d68;
     text-align: center;
     padding: 10px;
-    /*box-sizing: content-box;*/
     max-width: 180px;
 }
 
 main{
-    /*max-width: 600px;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,7 +56,6 @@ main{
     margin-right: auto;
     margin-left: auto;
     overflow: auto;
-    /*background-color: burlywood;*/
 }
 
 
@@ -169,9 +166,10 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /*background-color: chartreuse;*/
 }
 
+
+/*CSS for Positioning on Smaller Screens*/
 @media screen and (max-width: 786px){
 
     #aboutschool{
@@ -197,7 +195,7 @@ main{
     #industry {
         float:left;
         height:112px;
-        background-position: 0px -70px;
+        background-position: 0 -70px;
     }
 
     #about {
